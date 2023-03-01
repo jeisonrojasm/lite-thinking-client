@@ -1,0 +1,36 @@
+.enterprise-item {
+    display: grid;
+    grid-template-rows: 2;
+}
+
+.enterprise-name {
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 3rem;
+    min-height: 8rem;
+}
+
+@media (min-width: 768px) {
+    .enterprise-name {
+        font-size: 2rem;
+    }
+}
+
+.enterprise-address span,
+.enterprise-nit span,
+.enterprise-tel span{
+    font-weight: bold;
+}
+
+
+
+.enterprise-item__buttons {
+    display: flex;
+    flex-direction: row;
+}
+
+.btn {
+    display: inline-block;
+    width: 100%;
+    font-size: 1.5rem;
+}

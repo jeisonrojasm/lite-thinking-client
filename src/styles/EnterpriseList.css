@@ -1,0 +1,12 @@
+.enterprise-list {
+    font-size:1.5rem;
+    background-color: #0c5686;
+}
+
+@media (min-width: 768px) {
+    .enterprise-list {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        gap: 2.5rem;
+    }
+}

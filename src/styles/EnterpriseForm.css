@@ -1,0 +1,25 @@
+.enterprise-form{
+    display: flex;
+    flex-direction: column;
+    font-size: 2rem;
+}
+
+@media (min-width:768px) {
+    .enterprise-form{
+        width: 60%;
+        margin: 0 auto;
+    }
+}
+
+.enterprise-form__label{
+    color: #1a1a1a;
+    font-weight: bold;
+}
+
+.enterprise-form__input{
+    border: none;
+}
+
+.enterprise-form__button{
+    font-size: 2rem;
+}

@@ -1,0 +1,21 @@
+.navbar {
+    background-color: #091e2c;
+}
+
+.navbar-brand {
+    color: white;
+    font-size: 2rem;
+}
+
+.nav-item {
+    font-size: 1.5rem;
+    text-align: center;
+    color: white;
+    padding: 1rem;
+    margin: 0rem 2rem;
+}
+
+.nav-item:hover,
+.navbar-brand:hover {
+    color: #a8a8a8;
+}
